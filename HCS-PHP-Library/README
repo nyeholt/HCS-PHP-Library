@@ -1,9 +1,9 @@
 ;; PHP Cloud Storage API
 ;; ========================================================================
-;;   This package contains the PHP API for the Cloud Files storage system.
+;;   This package contains the PHP API for the Haylix cloud system.
 ;;
 ;;   Please see http://www.haylix.com/ for more information regarding the
-;;   Cloud Files storage system.
+;;   Haylix Cloud storage.
 ;;
 ;; Install
 ;; ------------------------------------------------------------------------
