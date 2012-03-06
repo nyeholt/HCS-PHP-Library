@@ -1,0 +1,29 @@
+;; PHP Cloud Storage API
+;; ========================================================================
+;;   This package contains the PHP API for the Cloud Files storage system.
+;;
+;;   Please see http://www.haylix.com/ for more information regarding the
+;;   Cloud Files storage system.
+;;
+;; Install
+;; ------------------------------------------------------------------------
+;;   Extract this archive and make sure the source code files are in your
+;;   PHP "include path".  To use the API in your source code, just make
+;;   sure to include/require the "haylix.php" script.
+;;
+;; Requirements
+;; ------------------------------------------------------------------------
+;;   [mandatory] PHP version 5.x (developed against 5.2.0)
+;;   [mandatory] PHP's cURL module
+;;   [mandatory] PHP enabled with mbstring (multi-byte string) support
+;;   [suggested] PEAR FileInfo module (for Content-Type detection)
+;;
+;; Examples
+;; ------------------------------------------------------------------------
+;;   For sample code, please see the tests.
+;;
+;;
+;; Tests
+;; ------------------------------------------------------------------------ 
+;; The tests are based on PHP 5.3.2-1ubuntu4.10 with Suhosin-Patch
+;; Zend Engine v2.3.0
