@@ -9,7 +9,7 @@
  * See COPYING for license information.
  *
  * @author Peter Pang <peter.pang@haylix.com>
- * @copyright Copyright (c) 2008, Haylix AU, Inc.
+ * @copyright Copyright (c) 2012, Haylix AU, Inc.
  * @package php_sdk
  */
 
