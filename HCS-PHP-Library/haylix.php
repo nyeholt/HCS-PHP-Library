@@ -263,10 +263,14 @@ class CloudStorage
         return -2;
     }
 
-    public function upload_file($container, $filename)
+	public function upload_file($container, $filename)
+	{
+		$file = file_get_contents($filename);
+		$this->upload_data($container, $file, $filename);
+	}
+	
+    public function upload_data($container, $file, $filename) 
     {
-        $file = file_get_contents($filename);
-
         if ($file == FALSE) 
         {
             return -1;
@@ -787,5 +791,3 @@ class CloudStorage
         return -1;
     }
 }
-
-?>
